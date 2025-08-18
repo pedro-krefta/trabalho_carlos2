@@ -1,0 +1,31 @@
+body{
+ width: 390px;
+ height: 844px;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+
+nav a{
+    font-size: 1rem;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.imagem{
+    border-radius: 16px;
+    padding-top: 50px;
+}
