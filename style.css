@@ -10,6 +10,15 @@ h1{
     font-size: 2rem;
     font-weight: bold;
 }
+
+.p1 {
+    margin-top: 450px;
+    position: absolute;   
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #363636;
+    text-align: center;
+}
 header {
     width: 390px;
     height: 100px;
@@ -30,21 +39,41 @@ nav a {
     font-weight: bold;
     
 }
-
+ 
 .imagem {
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px; 
+    margin-top: 40px; 
+    margin-bottom: 40px; 
 }
 
+.imagem img {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
 iframe {
     display: block;        
-    margin: 20px auto;     
-    width: 95%;            
-    height: 300px;         
+    margin: 0 auto;   
+    width: 350px;            
+    height: 350px;         
     border: none;          
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 12px;
     margin-top: 500px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;  
+}
+
+.p2{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #363636;
+}
