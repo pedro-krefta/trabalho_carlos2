@@ -3,20 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./prog.js"defer></script>
     <link rel="stylesheet" href="./conteudo.css">
     <title>conteudo</title>
 </head>
 <body>
     <header>
-        <h1>bibiografia</h1>
+        <h1>conteudo</h1>
         <div class="logo">
             <nav>
                 <a href="./index.html">inicio</a>
                 <a href="./biografia.html">biografia</a>
+                <a href="./editorial.html">editorial</a>
             </nav>
     </header>
     <main>
-
+        <div class="caixa-texto">
+            <div class="imagem">
+                <img src="./foto2.png" alt="">
+            </div>
+            <button onclick="MostrarEsconder('texto1')">O Pensador que Mudou a Política Moderna</button>
+            <div id="texto1" class="escondido">
+                 No século XVII, um filósofo inglês chamado John Locke revolucionou a forma como pensamos sobre governo e sociedade. Considerado o “pai do liberalismo”, Locke defendeu que todo ser humano nasce com direitos naturais, como a vida, a liberdade e a propriedade. Suas ideias ecoam até hoje nas constituições democráticas.
+             </div>
+    
+            <button onclick="MostrarEsconder('texto2')">John Locke e a Revolução Intelectual</button>
+            <div id="texto2" class="escondido ">
+                 Em uma época marcada por reis absolutistas, John Locke se destacou ao afirmar que o poder deve vir do povo e não apenas da coroa. Para ele, o governo existe para proteger os cidadãos, e, caso falhe, pode ser destituído. Uma ideia ousada que influenciou diretamente revoluções históricas, como a Americana e a Francesa.
+            </div>
+            <button onclick="MostrarEsconder('texto3')">O Legado da Tolerância</button>
+            <div id="texto3" class="escondido">
+                 Mais do que política, Locke também se dedicou a temas como religião e educação. Defendia a tolerância religiosa, acreditando que cada indivíduo deveria ter o direito de escolher sua fé. Essa visão progressista ajudou a abrir espaço para a liberdade de consciência, um valor essencial nas sociedades modernas.
+            </div>
+            <button onclick="MostrarEsconder('texto4')">Da Inglaterra para o Mundo</button>
+            <div id="texto4" class="escondido">
+                Nascido em 1632, John Locke atravessou um período turbulento da história inglesa. Suas obras, como Segundo Tratado sobre o Governo Civil, ultrapassaram fronteiras, inspirando líderes e revolucionários em diferentes países. Hoje, Locke é lembrado como um dos grandes arquitetos do pensamento político ocidental.
+            </div>
+        </div>
+       
     </main>
     <footer>
 
